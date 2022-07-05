@@ -21,7 +21,7 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title:                           # the main title
+title: Huskersec - Offense/Defense                          # the main title
 
 tagline: All Security, All the Time. Maybe.   # it will display as the sub-title
 
