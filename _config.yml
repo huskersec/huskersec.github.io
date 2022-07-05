@@ -5,7 +5,7 @@ theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-baseurl: '/huskersec.github.io'
+baseurl: ''
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -21,12 +21,12 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title:                           # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: All Security, All the Time. Maybe.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  Blogs, Papers, and code with a focus on security. Maybe some other stuff as well.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://huskersec.github.io'
@@ -73,7 +73,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark
+theme_mode: #[light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
