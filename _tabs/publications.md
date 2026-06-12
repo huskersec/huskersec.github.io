@@ -1,7 +1,7 @@
 ---
 title: Publications & CVEs
 icon: fas fa-shield-halved
-order: 3
+order: 2
 ---
 
 A running index of vulnerabilities I've discovered, advisories I've published,
