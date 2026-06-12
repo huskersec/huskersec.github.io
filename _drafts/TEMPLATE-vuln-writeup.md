@@ -68,6 +68,24 @@ the trust boundary being crossed.
 
 The actual defect. Show the vulnerable code and walk through *why* it's wrong.
 
+<!-- ------------------------------------------------------------
+     SYNTAX HIGHLIGHTING — fence tags (Rouge / Chirpy). Put the tag right
+     after the opening fence (three backticks) of a code block:
+
+       c          C                cpp        C++
+       csharp     C#  (or c#)      python     Python
+       powershell PowerShell       bash       shell / sh / zsh
+       nasm       x86 asm (Intel)  armasm     ARM asm
+       rust  go  java  ruby  javascript  sql  yaml  json  html  diff
+
+     NOTE: no GAS/AT&T-syntax asm lexer exists. `nasm` is Intel-syntax only —
+     dump disassembly with Intel syntax (objdump -M intel / gdb
+     `set disassembly-flavor intel`) for clean highlighting.
+
+     For plain terminal output / PoC runs, leave the fence bare (no tag),
+     or use `console` if you want prompt styling.
+     ------------------------------------------------------------ -->
+
 ```c
 // vulnerable snippet — annotate the exact problem
 size_t n = read_u32(input);     // attacker-controlled
@@ -75,6 +93,13 @@ memcpy(dst, src, n);            // no bound check against sizeof(dst)
 ```
 
 Explain the path from input to the defect. Diagrams help if state is complex.
+
+<!-- Example: Intel-syntax disassembly of the same spot -->
+
+```nasm
+mov     eax, [rdi]        ; eax = attacker-controlled length
+call    memcpy            ; dst, src, eax  — no bound check
+```
 
 ## Reaching the bug
 
@@ -87,7 +112,7 @@ What an attacker gains. Keep this proportionate and responsible: demonstrate
 impact without shipping a turnkey weapon. A crashing PoC or a controlled
 primitive is usually the right level for a public writeup.
 
-```
+```console
 $ ./poc target
 [*] triggering...
 [+] crash at 0x4141414141414141
