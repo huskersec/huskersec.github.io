@@ -2,6 +2,7 @@
 title: Resume
 icon: fas fa-file-lines
 order: 2
+published: false
 ---
 
 <!--
