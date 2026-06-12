@@ -1,7 +1,7 @@
 ---
 title: Projects
 icon: fas fa-code
-order: 7
+order: 3
 ---
 
 Tools and code I've published — separate from the writeup posts. If you're here
