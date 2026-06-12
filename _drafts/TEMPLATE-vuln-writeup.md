@@ -3,13 +3,47 @@ title: "CVE-YYYY-NNNNN: <one-line summary> in <product>"
 # date is set automatically when you publish (move to _posts and rename to
 # YYYY-MM-DD-slug.md). Uncomment and set explicitly if you want:
 # date: 2026-01-01 12:00:00 -0400
-categories: [Vulnerability Research]   # or [Offensive Security] / [Tooling]
-tags: [cve, <product>, <bug-class>]    # e.g. [cve, libfoo, heap-overflow]
+categories: [Vulnerability Research]   # see CATEGORY list below
+tags: [cve, <product>, <bug-class>]    # see TAG vocabulary below; 3–6 per post
 # pin: false
 # image:                               # optional hero image
 #   path: /assets/img/posts/<slug>/cover.png
 #   alt: ...
 ---
+
+<!-- ============================================================
+     TAXONOMY REFERENCE — house style (delete this block before publishing,
+     or leave it; HTML comments don't render). Keep tags lowercase and
+     hyphenated. Aim for ONE primary category and 3–6 tags per post.
+
+     CATEGORIES (broad post type; [Parent, Child] = sub-category):
+       Vulnerability Research      root-cause analysis, CVE writeups, bug hunting
+       Exploit Development         bug -> working exploit  (often a child of VR:
+                                   [Vulnerability Research, Exploit Development])
+       Offensive Security          tradecraft, red team, technique deep-dives
+       Malware Analysis            reversing samples, unpacking, behavioral
+       Tooling                     utilities you build or write up
+       Notes                       short posts, paper roundups, CTF, misc
+       Meta                        site housekeeping
+
+     TAGS (flat keywords; pick from these, extend sparingly):
+       tools:       ghidra, ida-pro, windbg, gdb, binary-ninja, frida,
+                    burp-suite, pwndbg, radare2, qemu, wireshark, volatility
+       bug classes: heap-overflow, stack-overflow, use-after-free,
+                    type-confusion, race-condition, integer-overflow,
+                    oob-read, oob-write, uninitialized-memory, logic-bug,
+                    deserialization
+       techniques:  rop, heap-grooming, fuzzing, reverse-engineering,
+                    privilege-escalation, code-injection, dll-hijacking,
+                    shellcode
+       targets:     windows, linux, macos, kernel, browser, android,
+                    firmware, web
+       general:     cve, 0day, n-day, poc, malware-analysis, red-team,
+                    ctf, disclosure
+
+     Rule of thumb: don't invent a tag you'll only ever use once.
+     ============================================================ -->
+
 
 ## Summary
 
