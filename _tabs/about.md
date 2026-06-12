@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 1
 ---
 
 I'm huskersec — a security researcher focused on **vulnerability research** and **offensive security**. This site is where I consolidate my writeups, research notes, tooling, and the occasional longer-form post.
