@@ -16,7 +16,7 @@ timezone: America/New_York
 
 title: Huskersec # the main title
 
-tagline: Offense / Defense — vulnerability research & offensive security # it will display as the subtitle
+tagline: Vulnerability research & offensive security # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Vulnerability research, offensive-security writeups, tooling, and notes by huskersec.
