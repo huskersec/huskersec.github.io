@@ -1,7 +1,7 @@
 ---
 title: Notes
 icon: fas fa-book
-order: 8
+order: 5
 ---
 
 Study notes, technique explorations, and working-through of things I'm learning
