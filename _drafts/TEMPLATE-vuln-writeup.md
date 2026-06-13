@@ -17,14 +17,26 @@ tags: [cve, <product>, <bug-class>]    # see TAG vocabulary below; 3–6 per pos
      hyphenated. Aim for ONE primary category and 3–6 tags per post.
 
      CATEGORIES (broad post type; [Parent, Child] = sub-category):
-       Vulnerability Research      root-cause analysis, CVE writeups, bug hunting
+       Vulnerability Research      FORMAL, disclosure-bound research: root-cause
+                                   analysis, CVE writeups, original bug hunting
        Exploit Development         bug -> working exploit  (often a child of VR:
                                    [Vulnerability Research, Exploit Development])
        Offensive Security          tradecraft, red team, technique deep-dives
        Malware Analysis            reversing samples, unpacking, behavioral
        Tooling                     utilities you build or write up
-       Notes                       short posts, paper roundups, CTF, misc
+       Notes                       LEARNING / study material: notes, patterns,
+                                   paper roundups, CTF writeups, TIL, misc
+         [Notes, Study Notes]      deeper study writeups (e.g. recognizing bug
+                                   classes in disassembly / decompiled output)
        Meta                        site housekeeping
+
+     FORMAL vs STUDY — pick the right bucket:
+       * Original research tied to a real finding / disclosure  -> Vulnerability
+         Research (+ Exploit Development if you weaponize it).
+       * Learning, exploration, technique study, or notes with no specific
+         disclosure attached  -> Notes (use [Notes, Study Notes] for the
+         substantial deep-dives).
+       A post is ONE primary category; lean on tags for the cross-cutting detail.
 
      TAGS (flat keywords; pick from these, extend sparingly):
        tools:       ghidra, ida-pro, windbg, gdb, binary-ninja, frida,
