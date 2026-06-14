@@ -31,9 +31,18 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          # submodules: true
-          # If using the 'assets' git submodule from Chirpy Starter, uncomment above
-          # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
+
+      # Pull the WinPrivEscLab gallery so notes can include source/disassembly
+      # at build time. Pinned to a tag/SHA so writeups stay in sync with the
+      # exact code their offsets correspond to. Bump `ref` when you want notes
+      # to track a newer lab version.
+      - name: Fetch WinPrivEscLab (pinned)
+        uses: actions/checkout@v6
+        with:
+          repository: huskersec/WinPrivEscLab
+          ref: main          # TODO: pin to a tag (e.g. v1.0) or commit SHA
+          path: _gallery
+          fetch-depth: 1
 
       - name: Setup Pages
         id: pages
@@ -53,8 +62,8 @@ jobs:
       - name: Test site
         run: |
           bundle exec htmlproofer _site \
-            \-\-disable-external \
-            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+            --disable-external \
+            --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v4
