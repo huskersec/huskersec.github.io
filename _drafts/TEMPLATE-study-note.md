@@ -33,16 +33,12 @@ Tools, target, versions — whatever a reader needs to follow along.
 The body. This is a notebook, not a polished tutorial — capture the actual
 reasoning. Show the pattern you're learning to recognize.
 
-<!-- PULL SOURCE FROM THE GALLERY (WinPrivEscLab), don't paste it, so notes
-     stay in sync with the pinned lab version. Build-time include:
-
-       {% gallery_snippet file="src/pool_overflow.c" lang="c" lines="42-58" %}
-
-     file  = path within the gallery repo (under _gallery/)
-     lang  = fence language (c, nasm, csharp, ...)
-     lines = "START-END" (1-indexed, inclusive); omit for whole file;
-             "42" single line; "42-" / "-58" open-ended.
-     A bad path or range FAILS the build instead of rendering wrong code. -->
+<!-- Write the source / disassembly / decompiled output directly in fenced code
+     blocks below. Use the right fence language for highlighting:
+       c   cpp   csharp   python   powershell   bash
+       nasm  (x86, Intel syntax)   armasm
+     For disassembly, dump in Intel syntax (objdump -M intel / gdb
+     `set disassembly-flavor intel`) so `nasm` highlights it cleanly. -->
 
 ```c
 // source-level version of the construct
