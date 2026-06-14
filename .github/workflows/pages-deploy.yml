@@ -32,18 +32,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      # Pull the WinPrivEscLab gallery so notes can include source/disassembly
-      # at build time. Pinned to a tag/SHA so writeups stay in sync with the
-      # exact code their offsets correspond to. Bump `ref` when you want notes
-      # to track a newer lab version.
-      - name: Fetch WinPrivEscLab (pinned)
-        uses: actions/checkout@v6
-        with:
-          repository: huskersec/WinPrivEscLab
-          ref: main          # TODO: pin to a tag (e.g. v1.0) or commit SHA
-          path: _gallery
-          fetch-depth: 1
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
