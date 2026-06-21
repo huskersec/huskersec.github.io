@@ -3,7 +3,7 @@ title: "Privilege Escalation via HTC VIVEPORT Desktop"
 date: 2019-05-24 17:24:43 -0400
 categories: [Vulnerability Research]
 tags: [cve, privilege-escalation, dll-hijacking, windows, disclosure, htc]
-img_path: /assets/img/htc-viveport-privesc/
+media_subpath: /assets/img/htc-viveport-privesc/
 ---
 
 > Originally published on [Medium](https://medium.com/@huskersec/privilege-escalation-via-htc-viveport-desktop-c93471ff87c8)
