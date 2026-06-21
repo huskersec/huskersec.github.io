@@ -4,7 +4,7 @@ Personal security research blog — vulnerability research, offensive security
 writeups, tooling, and notes. Built with [Chirpy][chirpy] (Jekyll) and deployed
 to GitHub Pages via GitHub Actions.
 
-Live: https://huskersec.github.io
+Live: https://huskersec.com (also reachable at https://huskersec.github.io)
 
 ## Local development
 
@@ -37,8 +37,9 @@ _config.yml site configuration
 
 ## Custom domain
 
-To use a custom domain, add a `CNAME` file at the repo root containing the
-domain (e.g. `huskersec.com`) and configure DNS + Pages settings.
+The site is served from the custom domain [huskersec.com](https://huskersec.com)
+(with HTTPS enforced) and remains reachable at the default
+`huskersec.github.io`.
 
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy
 [jekyll-install]: https://jekyllrb.com/docs/installation/
