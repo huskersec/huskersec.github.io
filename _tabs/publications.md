@@ -21,8 +21,8 @@ and other research output. Each entry links to the full writeup where one exists
 
 | CVE / ID | Product | Class | Impact | Disclosed | Writeup |
 |---|---|---|---|---|---|
-| CVE-YYYY-NNNNN | product name | use-after-free | RCE | YYYY-MM-DD | [link](#) |
-| — | — | — | — | — | — |
+| CVE-2019-12176 | HTC VIVEPORT Desktop | insecure service permissions | LPE | 2019-05-24 | [link](/posts/htc-viveport-privesc/) |
+| CVE-2019-12177 | HTC VIVEPORT Desktop | DLL hijacking | LPE | 2019-05-24 | [link](/posts/htc-viveport-privesc/) |
 
 ## Conference talks & papers
 
