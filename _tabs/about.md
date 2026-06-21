@@ -4,12 +4,13 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-I'm huskersec — a security researcher focused on **vulnerability research** and **offensive security**. This site is where I consolidate my writeups, research notes, tooling, and the occasional longer-form post.
+I'm huskersec — a security researcher focused on **vulnerability research** and **offensive security**, with a growing focus on **AI/agentic systems** for security work. This site is where I consolidate my writeups, research notes, tooling, and the occasional longer-form post.
 
 ## What you'll find here
 
 - **Vulnerability research** — root-cause analysis, CVE writeups, and the path from bug to impact.
 - **Offensive security** — tradecraft, technique deep-dives, and notes from engagements (sanitized).
+- **AI security** — agentic vulnerability research: MCP development for security tools, LLM-driven VR harnesses, agentic purple teaming, and agent-assisted network hardening. See the [AI Security](/ai-security/) page.
 - **Tooling** — small utilities and scripts I build along the way, usually with links to the repos.
 - **Notes** — shorter posts: things I learned, papers worth reading, rabbit holes worth sharing.
 
