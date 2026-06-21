@@ -18,14 +18,14 @@ for the code rather than the prose, this is the page.
 ### project-name
 <!-- one-line description: what it does and why it exists -->
 **Stack:** <!-- language / framework -->
-**Links:** [repo](https://github.com/huskersec/project-name) <!-- · [writeup](/posts/slug/) -->
+**Links:** [repo](https://github.com/huskersec) <!-- · [writeup](/posts/slug/) -->
 
 ---
 
 ### another-project
 <!-- description -->
 **Stack:**
-**Links:** [repo](#)
+**Links:** [repo](https://github.com/huskersec)
 
 ---
 
