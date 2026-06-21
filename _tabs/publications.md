@@ -24,9 +24,9 @@ and other research output. Each entry links to the full writeup where one exists
 | CVE-2019-12176 | HTC VIVEPORT Desktop | insecure service permissions | LPE | 2019-05-24 | [link](/posts/htc-viveport-privesc/) |
 | CVE-2019-12177 | HTC VIVEPORT Desktop | DLL hijacking | LPE | 2019-05-24 | [link](/posts/htc-viveport-privesc/) |
 
-## Conference talks & papers
+## Papers
 
-<!-- - **Talk title** — Venue, YYYY. [slides](#) · [video](#) -->
+<!-- - **Paper title** — Venue / publisher, YYYY. [pdf](#) -->
 
 _None yet._
 
