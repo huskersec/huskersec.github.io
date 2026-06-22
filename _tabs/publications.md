@@ -19,16 +19,28 @@ and other research output. Each entry links to the full writeup where one exists
   Keep "Class" terse — match your tag vocabulary (use-after-free, heap-overflow, …).
 -->
 
+CVEs I discovered and disclosed (credited in NVD):
+
 | CVE / ID | Product | Class | Impact | Disclosed | Writeup |
 |---|---|---|---|---|---|
 | CVE-2019-12176 | HTC VIVEPORT Desktop | insecure service permissions | LPE | 2019-05-24 | [link](/posts/htc-viveport-privesc/) |
 | CVE-2019-12177 | HTC VIVEPORT Desktop | DLL hijacking | LPE | 2019-05-24 | [link](/posts/htc-viveport-privesc/) |
 
+## Vulnerability analysis
+
+Independent root-cause / reverse-engineering writeups of vulnerabilities
+discovered by others — **not my discoveries**; credit to the original finders is
+given in each post.
+
+| CVE / ID | Product | Class | My contribution | Writeup |
+|---|---|---|---|---|
+| CVE-2026-41089 | Microsoft Windows (netlogon.dll / AD DC) | stack-overflow (DoS) | independent root-cause + patch-diff analysis | [link](/posts/CVE-2026-41089-netlogon-analysis/) |
+
 ## Papers
 
 <!-- - **Paper title** — Venue / publisher, YYYY. [pdf](#) -->
 
-_None yet._
+- **Iron Net: Proactive Remediation of Network-Level Lateral Movement Attack Paths in Windows Active Directory Environments** — CS6727, Georgia Institute of Technology, 2026. [pdf](/assets/files/ironnet.pdf) · [code](https://github.com/huskersec/IronNet)
 
 ## Bug bounties / acknowledgements
 
