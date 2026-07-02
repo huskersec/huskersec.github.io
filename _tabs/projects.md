@@ -27,6 +27,15 @@ decision-making for continuous autonomous network hardening (M.S. practicum).
 
 ---
 
+### CRUCIBLE
+Autonomous purple-team harness that measures how capable an LLM agent is at
+carrying out attacks — an agentic evaluation framework for driving and scoring
+offensive capability end to end. Work in progress.
+**Stack:** Python
+**Links:** [repo](https://github.com/huskersec/CRUCIBLE)
+
+---
+
 ### BugMuseum
 Windows bug-class study corpus: each specimen built across optimization and
 mitigation levels (`/Od`, `/O2`, `/O2 /GS`) with source, multi-level MSVC
@@ -45,6 +54,15 @@ manipulation, named-pipe / RPC / ALPC abuse, and the Potato and PrintNightmare
 lineages — mapping the EoP attack surface to SYSTEM.
 **Stack:** C / C++
 **Links:** [repo](https://github.com/huskersec/WinPrivEscLab)
+
+---
+
+### HEVD
+Proof-of-concept kernel exploits for the HackSys Extremely Vulnerable Driver
+(HEVD) — the well-known Windows kernel exploitation training target — working
+through classic driver bug classes and their kernel-mode exploitation primitives.
+**Stack:** C++
+**Links:** [repo](https://github.com/huskersec/HEVD)
 
 ---
 
