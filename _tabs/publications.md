@@ -34,7 +34,12 @@ given in each post.
 
 | CVE / ID | Product | Class | My contribution | Writeup |
 |---|---|---|---|---|
-| CVE-2026-41089 | Microsoft Windows (netlogon.dll / AD DC) | stack-overflow (DoS) | independent root-cause + patch-diff analysis | [link](/posts/CVE-2026-41089-netlogon-analysis/) |
+| CVE-2026-41089 | Microsoft Windows (netlogon.dll / AD DC) | stack-overflow (DoS) | independent root-cause + patch-diff analysis | _in revision_ |
+
+<!-- NOTE: the CVE-2026-41089 writeup is back in _drafts/ for cleanup. Once it's
+     republished to _posts/, restore the link:
+     [link](/posts/CVE-2026-41089-netlogon-analysis/) -->
+
 
 ## Papers
 
